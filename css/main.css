@@ -1,0 +1,292 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+  background: linear-gradient(193.2deg, #515151 -4.91%, #46c5cd 26.78%, #15c0ca 70.21%, #44a7ad 92.78%, #828687 107.77%);
+  width: 70.3em;
+  height: 152em;
+  position: relative;
+  overflow: hidden;
+}
+
+.box1 {
+  position: absolute;
+  width: 59em;
+  height: 79em;
+  border-radius: 16em;
+  background-color: rgba(255, 180, 69, 0.8);
+  transform: rotate(-46deg);
+  left: -48%;
+  top: 5%;
+}
+
+.box2 {
+  position: absolute;
+  width: 18em;
+  height: 79em;
+  border-radius: 16.9em;
+  background-color: rgba(255, 180, 69, 0.8);
+  transform: rotate(-46deg);
+  left: 94%;
+  top: 34%;
+}
+
+.box3 {
+  position: absolute;
+  width: 59em;
+  height: 79em;
+  border-radius: 16em;
+  background-color: rgba(255, 180, 69, 0.8);
+  transform: rotate(-46deg);
+  left: 22%;
+  top: 52%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header .button {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 8.87em;
+  height: 8.5em;
+  border-radius: 2.5em;
+  margin: 3em 3.5em 0 3em;
+}
+header .button svg.settings {
+  position: absolute;
+  width: 5em;
+  height: 5em;
+  margin-top: 1.8em;
+  margin-left: 2em;
+}
+header .button svg.logout {
+  position: absolute;
+  width: 5em;
+  height: 5em;
+  margin-top: 1.8em;
+  margin-left: 2em;
+}
+
+section.cordonnés .container {
+  position: relative;
+  width: 63.5em;
+  height: 37em;
+  border-radius: 4.4em;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 21px 15px rgba(0, 0, 0, 0.25);
+  margin: 10em auto;
+}
+section.cordonnés .container svg.delete {
+  width: 3em;
+  height: 4em;
+  margin-top: 2em;
+  margin-left: 30em;
+}
+section.cordonnés .container .first-row {
+  display: flex;
+  justify-content: space-between;
+}
+section.cordonnés .container .first-row .left-col {
+  width: 18em;
+  height: 18em;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 3.5em;
+  margin-top: 4.5em;
+  margin-left: 2.5em;
+}
+section.cordonnés .container .first-row .left-col svg.profile {
+  width: 8.5em;
+  height: 12em;
+  margin-top: 2.5em;
+  margin-left: 4.5em;
+}
+section.cordonnés .container .first-row h3 {
+  color: white;
+  font-size: 3.4em;
+  margin-top: 1.5em;
+  margin-left: -4em;
+  line-height: 5em;
+}
+section.cordonnés .container .first-row .right-col {
+  width: 6.3em;
+  height: 6.5em;
+  border: 3px solid #ffffff;
+  border-radius: 1.25em;
+  background-color: rgba(23, 215, 226, 0.6);
+  margin-top: 10em;
+  margin-right: 2.5em;
+}
+section.cordonnés .container .first-row .right-col img.edit {
+  width: 3.5em;
+  height: 3.5em;
+  margin-top: 1.4em;
+  margin-left: 1.6em;
+}
+section.cordonnés .container .second-row {
+  display: flex;
+  justify-content: space-between;
+}
+section.cordonnés .container .second-row .col1 svg.phone {
+  width: 3.2em;
+  height: 3.2em;
+  margin-top: 3em;
+  margin-left: 3.5em;
+}
+section.cordonnés .container .second-row .col1 svg.ringing {
+  width: 2.4em;
+  height: 2.3em;
+  margin-left: -2.2em;
+  margin-bottom: 1.3em;
+}
+section.cordonnés .container .second-row .col2 p {
+  color: white;
+  font-size: 2.1em;
+  margin-top: 1.7em;
+  margin-left: -2em;
+}
+section.cordonnés .container .second-row .col3 svg.mail {
+  width: 3.5em;
+  height: 2.5em;
+  margin-top: 3.5em;
+  margin-left: 4.5em;
+  margin-right: -4em;
+}
+section.cordonnés .container .second-row .col4 p {
+  color: white;
+  font-size: 2.25em;
+  margin-top: 1.5em;
+  margin-right: 1.5em;
+}
+
+section.second-section {
+  position: relative;
+  width: 63.3em;
+  height: 62.8em;
+  border-radius: 4.4em;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 12em auto;
+}
+section.second-section .row1 {
+  display: flex;
+  margin-left: 10em;
+  padding-top: 8.3em;
+}
+section.second-section .row1 h3 {
+  font-size: 3em;
+  margin-left: 0.1em;
+}
+section.second-section .row1 svg.elipse {
+  width: 1.3em;
+  height: 1.3em;
+  margin-top: 1.4em;
+  margin-left: 0.5em;
+}
+section.second-section .row1 p {
+  color: rgb(98, 98, 98);
+  font-size: 2em;
+  margin-left: 1.3em;
+  margin-top: -1.1em;
+}
+section.second-section .row1 .second-edit {
+  width: 6.3em;
+  height: 6.5em;
+  border: 3px solid #ffffff;
+  border-radius: 1.25em;
+  background-color: rgba(23, 215, 226, 0.6);
+  margin-left: 22.5em;
+}
+section.second-section .row1 .second-edit img.edit2 {
+  width: 3.5em;
+  height: 3.5em;
+  margin-top: 1.3em;
+  margin-left: 1.5em;
+}
+section.second-section .row2 input[type=range] {
+  width: 75%;
+  height: 10em;
+  margin-left: 12em;
+}
+section.second-section .row2 label {
+  color: rgb(98, 98, 98);
+  font-size: 2em;
+  margin-left: 5em;
+  margin-top: -2em;
+  float: left;
+}
+section.second-section .row2 output {
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
+  float: right;
+  margin-right: 4em;
+  margin-top: -2em;
+}
+section.second-section .row2 span {
+  color: black;
+  font-weight: bold;
+  font-size: 2.2em;
+  float: right;
+  margin-right: 2.7em;
+  margin-top: -1.9em;
+}
+section.second-section .row3 .date {
+  width: 75%;
+  border-top: 3px solid black;
+  margin-top: 1em;
+  margin-left: 10em;
+  padding: 2.5em 0;
+}
+section.second-section .row3 .date h3 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+section.second-section .row3 .date p {
+  font-size: 2em;
+  color: rgb(98, 98, 98);
+  text-align: center;
+  margin-top: -1em;
+  margin-left: 7em;
+}
+section.second-section .row3 .amount {
+  width: 75%;
+  border-top: 3px solid black;
+  margin-top: 1em;
+  margin-left: 10em;
+  padding: 2.5em 0;
+}
+section.second-section .row3 .amount h3 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+section.second-section .row3 .amount p {
+  font-size: 2em;
+  color: rgb(98, 98, 98);
+  text-align: center;
+  margin-top: -1em;
+  margin-left: 7em;
+}
+section.second-section .row3 .status {
+  width: 75%;
+  border-top: 3px solid black;
+  margin-top: 1em;
+  margin-left: 10em;
+  padding: 2.5em 0;
+}
+section.second-section .row3 .status h3 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+section.second-section .row3 .status p {
+  font-size: 2em;
+  color: rgb(98, 98, 98);
+  text-align: center;
+  margin-top: -1em;
+  margin-left: 6em;
+}/*# sourceMappingURL=main.css.map */
